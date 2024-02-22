@@ -18,6 +18,12 @@ output.json
 # IntelliJ
 *.iml
 .idea/
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
 
 # Keystore files
 *.jks
@@ -28,3 +34,9 @@ google-services.json
 
 # Android Profiling
 *.hprof
+
+# Mac files
+.DS_Store
+
+# Other
+/captures
