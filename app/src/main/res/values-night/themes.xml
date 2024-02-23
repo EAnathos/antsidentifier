@@ -2,13 +2,14 @@
     <!-- Base application theme. -->
     <style name="Theme.AntsIdentifier" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/dark_green</item>
+        <item name="colorPrimary">@color/light_green</item>
         <item name="colorOnPrimary">@color/black</item>
         <!-- Secondary brand color. -->
-        <item name="colorSecondary">@color/light_green</item>
-        <item name="colorOnSecondary">@color/black</item>
+        <item name="colorSecondary">@color/dark_green</item>
+        <item name="colorOnSecondary">@color/white</item>
         <!-- Status bar color. -->
-        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
-        <!-- Customize your theme here. -->
+        <item name="android:statusBarColor">@color/dark_gray</item>
+        <!-- Background color. -->
+        <item name="android:windowBackground">@color/dark_gray</item>
     </style>
 </resources>
