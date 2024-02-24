@@ -9,5 +9,7 @@
         <item name="colorOnSecondary">@color/black</item>
         <!-- Status bar color. -->
         <item name="android:statusBarColor">@color/light_gray</item>
+        <!-- Background color. -->
+        <item name="android:windowBackground">@color/light_gray</item>
     </style>
 </resources>
