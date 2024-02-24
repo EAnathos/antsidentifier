@@ -3,4 +3,11 @@
     <string name="title_information">Informations</string>
     <string name="title_search">Rechercher</string>
     <string name="title_history">Historique</string>
+    <string name="information_antarium_title">Antarium</string>
+    <string name="information_antarium_description">Cette application délivrée par la communauté d’<b>Antarium</b>, n’a en aucun cas prétention à l’exactitude, son utilisation doit toujours être accompagnée de recherches extérieures. \n\nN’hésitez pas à faire un retour sur le <b>serveur Discord.</b></string>
+    <string name="antarium_logo_alt">Logo d\'Antarium</string>
+    <string name="information_ressources_title">Ressources</string>
+    <string name="information_ressources_description">Les photographies proviennent soient de <b>Antweb.org</b> soient de la communauté.\n\nLes espèces considérées sont notamment celles présentes dans la liste dressée par l’association <b>AntArea</b> (antarea.org), en excluant certaines espèces invasives uniquement présentes dans les bâtiments chauffés.</string>
+    <string name="information_application_description">Vous pouvez retrouver le code de l’application sur <b>Github</b> et ainsi participer à son développement.</string>
+    <string name="information_application_title">Application</string>
 </resources>
