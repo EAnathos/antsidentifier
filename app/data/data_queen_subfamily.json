@@ -1,0 +1,120 @@
+{
+  "0": {
+    "description": "Insertions antennaires totalement exposées.",
+    "descriptionBis": "Fourmis millimétriques jaune pâle, allongées, souterraines, très rarement observées. Pétiole double chez les ouvrières, simple chez les reines, qui sont ergatoïdes. Méditerranéennes. A ne pas confondre avec les Solenopsis (Myrmicinae), bien plus communes et de silhouette moins élancée.",
+    "images": {
+      "linkA": "x",
+      "linkB": "x"
+    },
+    "end": "true",
+    "answer": {
+      "type": "specie",
+      "subfamily": "Leptanillinae",
+      "genus": "Leptanilla",
+      "specie": "revelierii"
+    }
+  },
+  "1": {
+    "description": "Insertions antennaires totalement exposées.",
+    "descriptionBis": "",
+    "images": {
+      "linkA": "x"
+    },
+    "end": "false",
+    "answer": {
+      "0": {
+        "description": "Gastre aminci entre le premier et le second tergite.",
+        "descriptionBis": "Petite taille. Pétiole unique et épais. Petits yeux chez les ouvrières.",
+        "images": {
+          "linkA": "x",
+          "linkB": "x"
+        },
+        "end": "false",
+        "answer": {
+          "0": {
+            "description": "Gastre droit, deuxième tergite à peine plus grand que le premier. \nPétiole plus ou moins rectangulaire en vue de profil.",
+            "descriptionBis": "Brunes ou orangées. Communes dans toute la France.",
+            "images": {
+              "linkA": "x"
+            },
+            "end": "true",
+            "answer": {
+              "type": "subfamily",
+              "subfamily": "Ponerinae"
+            }
+          },
+          "1": {
+            "description": "Gastre recourbé, deuxième tergite bien plus volumineux que le premier. \nPétiole plus ou moins triangulaire en vue de profil.",
+            "descriptionBis": "Uniformément oranges. Rarissime.",
+            "images": {
+              "linkA": "x"
+            },
+            "end": "true",
+            "answer": {
+              "type": "specie",
+              "subfamily": "Proceratiinae",
+              "genus": "Proceratium",
+              "specie": "melinum"
+            }
+          }
+        }
+      },
+      "1": {
+        "description": "Gastre d’épaisseur constante sur toute sa longueur.",
+        "descriptionBis": "",
+        "images": {
+          "linkA": "x"
+        },
+        "end": "false",
+        "answer": {
+          "0": {
+            "description": "Pétiole en deux parties (pétiole et post-pétiole).",
+            "descriptionBis": "Épines propodéales souvent présentes.",
+            "images": {
+              "linkA": "x"
+            },
+            "end": "true",
+            "answer": {
+              "type": "subfamily",
+              "subfamily": "Myrmicinae"
+            }
+          },
+          "1": {
+            "description": "Pétiole unique.",
+            "descriptionBis": "Épines propodéales toujours absentes parmi la faune française.",
+            "images": {
+              "linkA": "x"
+            },
+            "end": "false",
+            "answer": {
+              "0": {
+                "description": "Quatre tergites visibles sur le gastre. \nApex du gastre plus ou moins tronqué, s’achevant en une simple fente transversale.",
+                "descriptionBis": "Petites fourmis sveltes et vives.",
+                "images": {
+                  "linkA": "x"
+                },
+                "end": "true",
+                "answer": {
+                  "type": "subfamily",
+                  "subfamily": "Dolichoderinae"
+                }
+              },
+              "1": {
+                "description": "Cinq tergites visibles sur le gastre, le dernier relativement court. \nApex du gastre arrondi, se terminant par un acidopore rond souvent couronné de poils dressés.",
+                "descriptionBis": "",
+                "images": {
+                  "linkA": "x"
+                },
+                "end": "true",
+                "answer": {
+                  "type": "subfamily",
+                  "subfamily": "Formicinae"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
