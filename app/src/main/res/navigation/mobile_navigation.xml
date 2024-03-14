@@ -7,15 +7,15 @@
 
     <fragment
         android:id="@+id/navigation_information"
-        android:name="fr.eanathos.antsidentifier.ui.home.InformationFragment"
+        android:name="fr.eanathos.antsidentifier.ui.information.InformationFragment"
         android:label="@string/title_information"
         tools:layout="@layout/fragment_information" />
 
     <fragment
         android:id="@+id/navigation_search"
-        android:name="fr.eanathos.antsidentifier.ui.dashboard.DashboardFragment"
+        android:name="fr.eanathos.antsidentifier.ui.search.SearchFragment"
         android:label="@string/title_search"
-        tools:layout="@layout/fragment_dashboard" />
+        tools:layout="@layout/fragment_search" />
 
     <fragment
         android:id="@+id/navigation_history"

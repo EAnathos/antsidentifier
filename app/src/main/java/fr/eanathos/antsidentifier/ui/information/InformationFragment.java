@@ -1,4 +1,4 @@
-package fr.eanathos.antsidentifier.ui.home;
+package fr.eanathos.antsidentifier.ui.information;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;

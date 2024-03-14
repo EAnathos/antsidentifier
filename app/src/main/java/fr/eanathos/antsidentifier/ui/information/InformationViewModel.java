@@ -1,4 +1,4 @@
-package fr.eanathos.antsidentifier.ui.home;
+package fr.eanathos.antsidentifier.ui.information;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
