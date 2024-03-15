@@ -7,20 +7,27 @@ import android.view.ViewGroup;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
+import androidx.lifecycle.ViewModelProvider;
 
-import fr.eanathos.antsidentifier.R;
+import fr.eanathos.antsidentifier.databinding.FragmentInformationBinding;
 
 public class InformationFragment extends Fragment {
+
+    private @NonNull FragmentInformationBinding binding;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
 
+        InformationViewModel informationViewModel =
+                new ViewModelProvider(this).get(InformationViewModel.class);
+        binding = FragmentInformationBinding.inflate(inflater, container, false);
 
-        ViewGroup root = (ViewGroup) inflater.inflate(R.layout.fragment_search, null);
+        return binding.getRoot();
+    }
 
-
-        return root;
-
-
+    @Override
+    public void onDestroyView() {
+        super.onDestroyView();
+        binding = null;
     }
 }
