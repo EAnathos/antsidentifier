@@ -28,7 +28,7 @@ public class SearchFragment extends Fragment {
         binding = FragmentSearchBinding.inflate(inflater, container, false);
 
         ViewGroup root = (ViewGroup) inflater.inflate(R.layout.fragment_search, null);
-        Spinner spinner = (Spinner) root.findViewById(R.id.spinner);
+        Spinner castSpinner = (Spinner) root.findViewById(R.id.cast_spinner);
         TextView textViewWelcome = (TextView) binding.getRoot().findViewById(R.id.textViewWelcome);
 
         TypedArray styledAttributes = requireContext().getTheme().obtainStyledAttributes(
@@ -43,10 +43,9 @@ public class SearchFragment extends Fragment {
         int endIndex = startIndex + "Antarium".length();
 
         spannableString.setSpan(new ForegroundColorSpan(colorPrimary), startIndex, endIndex, Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
-
         textViewWelcome.setText(spannableString);
 
-        spinner.setOnItemSelectedListener(new SpinnerItemSelectedListener());
+        castSpinner.setOnItemSelectedListener(new SpinnerItemSelectedListener());
 
         return binding.getRoot();
     }

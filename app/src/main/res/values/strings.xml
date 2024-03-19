@@ -5,6 +5,13 @@
         <item>Mâle</item>
         <item>Gyne</item>
     </string-array>
+    <string-array name="subfamily_array">
+        <item>Choisir …</item>
+        <item>Dolichoderinae</item>
+        <item>Formicinae</item>
+        <item>Myrmicinae</item>
+        <item>Ponerinae</item>
+    </string-array>
     <string name="app_name">Ants Identifier</string>
     <string name="title_information">Informations</string>
     <string name="title_search">Rechercher</string>
@@ -21,4 +28,6 @@
     <string name="search_welcome">Bienvenue dans l’outil de recherche <b>Antarium</b> précisez votre recherche petit à petit et une fois que vous vous retrouvez bloqué utilisez la clé d’identification correspondante.</string>
     <string name="search_cast_title">Castes</string>
     <string name="search_cast_button">Clé d’identification des castes</string>
+    <string name="search_subfamily_button">Clé d’identification des sous-famille</string>
+    <string name="search_subfamily_title">Sous-famille</string>
 </resources>

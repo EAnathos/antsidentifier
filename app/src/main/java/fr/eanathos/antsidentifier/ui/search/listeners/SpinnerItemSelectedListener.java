@@ -11,10 +11,10 @@ public class SpinnerItemSelectedListener implements AdapterView.OnItemSelectedLi
 
         switch (position) {
             case 1:
-                // Do something
+                Log.d("Spinner", "test");
                 break;
             case 2:
-                // Do something
+                Log.d("Spinner", "test2");
                 break;
             case 3:
                 // Do something
