@@ -6,27 +6,23 @@ import android.widget.AdapterView;
 
 public class SpinnerItemSelectedListener implements AdapterView.OnItemSelectedListener {
     @Override
-    public void onItemSelected(AdapterView<?> parentView, View selectedItemView, int position, long id) {
-        Log.d("InformationFragment", "Selected item: " + parentView.getItemAtPosition(position));
+    public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+        String selectedItem = parent.getItemAtPosition(position).toString();
+        Log.d("rootView", String.valueOf(parent.getRootView()));
 
-        switch (position) {
-            case 1:
-                Log.d("Spinner", "test");
-                break;
-            case 2:
-                Log.d("Spinner", "test2");
-                break;
-            case 3:
-                // Do something
-                break;
-            default:
-                // Do something
-                break;
+        switch (parent.getId()) {
+            case 2131296777:
+                if (selectedItem.equals("Reine") || selectedItem.equals("Ouvrière") || selectedItem.equals("Mâle")) {
+                    // Ne rien faire ici pour le moment
+                } else {
+
+                }
         }
+
     }
 
     @Override
-    public void onNothingSelected(AdapterView<?> parentView) {
-        // your code here
+    public void onNothingSelected(AdapterView<?> parent) {
+        // Ne rien faire ici pour le moment
     }
 }

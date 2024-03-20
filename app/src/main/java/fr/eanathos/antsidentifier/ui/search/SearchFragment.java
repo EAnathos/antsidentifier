@@ -27,9 +27,7 @@ public class SearchFragment extends Fragment {
 
         binding = FragmentSearchBinding.inflate(inflater, container, false);
 
-        ViewGroup root = (ViewGroup) inflater.inflate(R.layout.fragment_search, null);
-        Spinner castSpinner = (Spinner) root.findViewById(R.id.cast_spinner);
-        TextView textViewWelcome = (TextView) binding.getRoot().findViewById(R.id.textViewWelcome);
+        TextView textViewWelcome = binding.getRoot().findViewById(R.id.textViewWelcome);
 
         TypedArray styledAttributes = requireContext().getTheme().obtainStyledAttributes(
                 new int[] { android.R.attr.colorPrimary });
@@ -45,6 +43,7 @@ public class SearchFragment extends Fragment {
         spannableString.setSpan(new ForegroundColorSpan(colorPrimary), startIndex, endIndex, Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
         textViewWelcome.setText(spannableString);
 
+        Spinner castSpinner = binding.getRoot().findViewById(R.id.cast_spinner);
         castSpinner.setOnItemSelectedListener(new SpinnerItemSelectedListener());
 
         return binding.getRoot();
